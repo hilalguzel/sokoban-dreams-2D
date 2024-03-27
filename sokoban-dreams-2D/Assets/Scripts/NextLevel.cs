@@ -12,6 +12,11 @@ public class NextLevel : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
+
+    public void next()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
 
 
